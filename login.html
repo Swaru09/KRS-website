@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div>
+            <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="logo" height="50px">
+        </div>
+        <div class="list">
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="index.html#aboutme">About Us</a>
+            <a class="links"href="#contactus">Contact Me</a>
+        </div>
+        <div class="btnn">
+            <a class="btnn1" href="">Login</a>
+            <a class="btnn2" href="registrationform.html">Register</a>
+        </div>
+    </div>
+    <div class="login">
+        <div class="login-box">
+            <h1>
+                LOGIN
+            </h1>
+            <br>
+            <form id="myform"action="">
+                <div class="user-box">
+                    <label for="name">Username : </label><br>
+                    <input class="form-input"type="text" name="username"placeholder="enter your username">
+                    <div class="error" id="usernameErr"></div><br>
+                </div><br>
+                <div class="user-box">
+                    <label for="password">Password : </label><br>
+                    <input name= "password"class= "form-input"type="password" placeholder="enter your password">
+                    <div class="error" id ="passwordErr"></div><br>
+                </div><br>
+                <div>
+                    <button type="button"class="btn3" id="loginButton">Submit</button>
+                    <button class="btn3">Clear</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- footer  -->
+    <center><hr></center>
+    <div class="footer" id="contactus">
+        <div><img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt=""></div>
+        <div class="contact-links">
+            <div>
+                <h2>Sitemap</h2>
+                <h3>Home</h3>
+                <h3>About Us</h3>
+                <h3>Contact Us</h3>
+            </div>
+            <div>
+                <h2>Contact Us</h2>
+                <h3>Instagram</h3>
+                <h3>Facebook</h3>
+                <h3>Youtube</h3>
+                <h3>Email</h3>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
